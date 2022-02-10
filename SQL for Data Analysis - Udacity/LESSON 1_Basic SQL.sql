@@ -181,7 +181,7 @@ SELECT *
 FROM accounts
 WHERE (name LIKE 'C%' OR name LIKE 'W%')
     AND ((primary_poc LIKE '%ana%' OR primary_poc LIKE '%Ana%')
-    AND primary_poc NOT LIKE '%eana%');
+    AND primary_poc NOT LIKE '%eana%'); 
 
 
 --======================END (Jeremias Tivane - https://www.linkedin.com/in/jeremiastivane )
